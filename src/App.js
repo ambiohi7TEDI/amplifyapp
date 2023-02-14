@@ -1,10 +1,13 @@
+import logo from './logo.svg';
+import './App.css';
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Welcome to oil serv limited fam. work? 
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -16,7 +19,6 @@ function App() {
         </a>
       </header>
     </div>
-          
   );
 }
 
